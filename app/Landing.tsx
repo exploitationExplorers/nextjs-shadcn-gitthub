@@ -26,7 +26,7 @@ const LandingPage: React.FC = () => {
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight">
               Organize your work,
               <br />
-              <span className="bg-clip-text text-transparent bg-gradient-to-r from-primary to-primary/60">
+              <span className="bg-clip-text text-transparent bg-gradient-to-r from-primary  to-primary/60">
                 One task at a time
               </span>
             </h1>
@@ -66,8 +66,8 @@ const LandingPage: React.FC = () => {
               <Image
                 src={
                   resolvedTheme === "dark"
-                    ? "/projex-dark.png"
-                    : "/projex-light.png"
+                    ? "/screenshot-dark.png"
+                    : "/screenshot-light.png"
                 }
                 alt="App preview"
                 width={1824}
