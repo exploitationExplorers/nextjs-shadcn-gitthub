@@ -123,3 +123,17 @@
     @apply bg-background text-foreground;
   }
 }
+
+@layer utilities {
+  .h-minus-80 {
+    height: calc(100vh - 80px);
+  }
+  .h-minus-135 {
+    height: calc(100vh - 135px);
+  }
+
+  .h-minus-230 {
+    height: calc(100vh - 230px);
+  }
+  
+}
